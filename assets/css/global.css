@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+.btn-primary{
+    padding: 8px;
+    width: 80%;
+    border-radius: 8px;
+    color: white;
+    background: #00c3ff;
+    background: linear-gradient(90deg, rgba(0, 195, 255, 1) 0%, rgb(44, 110, 233) 82%, rgb(2, 84, 161) 100%);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    box-shadow: rgba(255, 255, 255, 0.171) 0px -50px 36px -28px inset;
+}
+
+.btn-danger{
+    padding: 8px;
+    width: 124px;
+    border-radius: 8px;
+    color: white;
+    background: #ff2235;
+    background: linear-gradient(90deg, rgb(223, 89, 89) 0%, rgb(243, 61, 61) 82%, rgb(173, 10, 10) 100%);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-danger:hover{
+    box-shadow: rgba(255, 255, 255, 0.171) 0px -50px 36px -28px inset;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    list-style: none;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgba(77, 75, 75, 0.199);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+li {
+    list-style: none;
+    padding: 4px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #00000021;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.content-header{
+    display: flex;
+    height: 100px;
+    background-color: rgb(0, 18, 43);
+    justify-content: end;
+    align-items: center;
+    
+}
+.content-header img{
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+
+.content-header a{
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.content-header a:hover{
+    font-weight: 800;
+    color: #00c3ff;
+}
